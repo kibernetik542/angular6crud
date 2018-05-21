@@ -20,6 +20,7 @@ export class CreateEmployeeComponent implements OnInit {
 
   previewPhoto = false;
   datePickerConfig: Partial<BsDatepickerConfig>;
+  
   employee: Employee = {
     id: null,
     name: null,
